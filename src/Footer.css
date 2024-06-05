@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: rgba(137, 173, 173, 0.7);
+    backdrop-filter: blur(10px);
+    color: #20110d;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    font-weight: 700;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 5px;
+    }
+  }
+  

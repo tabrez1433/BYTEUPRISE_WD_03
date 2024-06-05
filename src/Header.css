@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgb(185, 235, 236);
+    backdrop-filter: blur(10px);
+    color: #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px;
+    }
+  }
+  
